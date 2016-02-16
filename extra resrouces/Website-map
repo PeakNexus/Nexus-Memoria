@@ -1,0 +1,56 @@
+Website-company
+
+Nav
+-Home
+
+- Open Source Solutions 
+--Independant and cloud - All have API
+---State of the art messaging and db provisioning system with APIS, used to connect all the services to work together
+---State of the art message/connection platform service to send and recieves messages from events and stored in db for queryings
+---State of the art login/permissioning/role/security system
+---State of the art UI compatability with styles and widgets
+----bootstrap 4/foundation theme
+---ConnectSocial - cloud based nodejs social network platform
+---Connected Tasklist
+---Connected tracker (like Jira)
+---Connect wiki
+---FreeScaleJS - web based images editor
+---FreeTypeJS - web based docs/file editor
+---Full Platform, complemented
+----Admin tools
+---VisualDBMS (need a better name), Datadriven Platform with workflows built around it, users can build there own workflows and 
+---IOT
+---connected developer toops - jira, revision history, code review
+---Mobile packages
+
+
+- Enterprize Services
+--
+--Enterprize support
+---Zendesk/Jira
+--Enterprize tools
+
+-About
+
+-Contact Us
+
+-Support
+
+-Forum/Community
+
+-Search
+
+-Users/Customers
+
+
+Content
+-solutions
+-upcoming
+-horizontal timeline and updates
+-
+
+Extras
+-sitemap
+-the future and developers
+-SEO
+-

@@ -1,0 +1,19 @@
+memory map
+
+
+Problem
+- Bring able to share memories and photos / updates with family and friends automatically
+- Get insparation from new photography
+- Add class to your home automatically
+
+Definition
+- cloud based photo sharing/viewing tool
+
+requirements
+- admin page to get/share/manage photos and albums
+- View to look that the photos and albums
+- User level control on what and who and when they want to see
+
+tech requirements
+- bandwidth
+- decent UI layer and control

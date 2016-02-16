@@ -1,13 +1,13 @@
 {
-  "name": "foundation-zurb-template",
-  "version": "1.0.0",
-  "description": "Official ZURB Template for Foundation for Sites.",
+  "name": "peak-nexus-web",
+  "version": "0.1.0",
+  "description": "Official Website of peak nexus",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
+    "start": "gulp ",
     "build": "gulp build --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Peak Nexus <peaknexus.com",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.10.0",
@@ -23,19 +23,20 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.2.0",
     "gulp-uncss": "^1.0.1",
-    "panini": "^1.0.0",
+    "path": "^0.12.7",
     "rimraf": "^2.4.3",
     "run-sequence": "^1.1.0",
     "style-sherpa": "^1.0.0",
+    "webpack": "^1.12.13",
     "yargs": "^3.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-zurb-template.git"
+    "url": "https://github.com/peaknexus/peaknexus.git"
   },
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/peaknexus/peaknexus/issues",
+    "email": "peaknexus@gmail.com"
   },
   "private": true
 }

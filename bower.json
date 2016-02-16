@@ -1,12 +1,24 @@
 {
-  "name": "foundation-ssg",
-  "version": "1.0.0",
-  "authors": [
-    "ZURB <foundation@zurb.com>"
-  ],
-  "description": "Static site generator for Foundation for Sites.",
+  "name": "peak-nexus-web",
+  "description": "Peaknexus.com",
   "main": "gulpfile.js",
+  "authors": [
+    "Peak Nexus <peaknexus.com>"
+  ],
   "license": "MIT",
+  "keywords": [
+    "Peak Nexus",
+    "Nexus UI"
+  ],
+  "homepage": "https://github.com/peaknexus/peaknexus",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,8 +27,6 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-sites": "~6.0.0",
-    "motion-ui": "~1.1.0"
-  },
-  "private": true
+    "react": "^0.14.7"
+  }
 }

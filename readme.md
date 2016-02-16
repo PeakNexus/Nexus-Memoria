@@ -1,63 +1,100 @@
-# ZURB Template
+# Nexus UI Framework
+---
+#### Features and Usage
+*what:*
+- JS centric UI
+    - Rich theme for building full web pages
+    - Cross compatible Widgets and components from the sources you are most familiar with
+- Includes components like themes, Forms, Trees, Lists, Menus, Toolbars, Panels, Charts, Animations, Wizywigs, Image Editor, Desktop capabilities, Dashboards, Admin Panels
+- Includes common utilities like In18, Dates and time stamps, 
+- Data Handling Package
+    - Offers data filtering, sorting, connections (sockets), caching, data driven styling, querying, 
+- Responsiveness (Better on larger screen) with minimized views for mobile
+- Accessability for handicaps
+- Apps Templates
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+*why:*
+- Open Source, community driven and open for commercial use
+- Common toolchain people are use to (webpack, gulp, sass and more)
+- Theme Support and customizable to your liking
+- Build Custom with required features
+- Event driven and triggers
+- 
 
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+#### Installation
 
-- Handlebars HTML templates with Panini
-- Sass compilation and prefixing
-- JavaScript concatenation
-- Built-in BrowserSync server
-- For production builds:
-  - CSS compression
-  - JavaScript compression
-  - Image compression
 
-## Installation
+---
+#### Developers - stack
 
-To use this template, your computer needs:
+*Front End - Tool chain*
+- Package Manager - Download packages and its dependencies
+    - NodeJs - even though it's a server-side v8 javascript engine, it has an amazing package management toolkit, npm
+        - Can run scripts such as gulpfiles or other cli 
+        - Define Project Dependencies of node modules
+        - Project structure and metainfo
+        - refer a repo
+        - 
+- Tanscompilers - compile es6 to es5 for better dev support, and keeping all the browser
+    - Typescript, coffeescript => Babel (https://babeljs.io/docs/setup/#gulp)
+- Bundlers
+    - Browserify or Webpack (https://webpack.github.io/docs/what-is-webpack.html)
+- Automation / task runners
+    - Gulp or Grunt (https://github.com/gulpjs/gulp/tree/master/docs)
 
-- [NodeJS](https://nodejs.org/en/) (0.10 or greater)
-- [Git](https://git-scm.com/)
+*Front End - Tool Chain Process*
+- Use Gulp for automation
+    - Webpack bundling of css and js, preprocessing of css and js, compression, minifinations,  
+- JS Compiling
+    - Concat
+    - Uglify
+- CSS Compiling
+    - UnCSS
+    - Minify
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+*Front End - Vendors*
+- Jquery
+- Foundation
+- gsap for animations
+- d3, google charting charting
 
-### Using the CLI
+*Front End - custom*
+- API to compose other libraries, speccially vendors
+- 
+---
+#### Structure
+*Files*
 
-Install the Foundation CLI with this command:
+*Application*
 
-```bash
-npm install foundation-cli --global
-```
+*Components*
+- Froundation Base Components
+- 
 
-Use this command to set up a blank Foundation for Sites project with this template:
+---
+### Extras
+Nexus UI
+-es6 - babel, core, polyfill
+-jquery
+-underscore
 
-```bash
-foundation new --framework sites --template zurb
-```
+-foundation/boostrap support modularity
+-View modularity - react/angular/polymerjs
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+components
+- tables
+- charts
+- desktops
 
-### Manual Setup
+-mocha/some other testing framework
 
-To manually set up the template, first download it with Git:
+- themes
+    - paper 
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
 
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-bower install
-```
-
-Finally, run `npm start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
-
-```
-http://localhost:8000
-```
-
-To create compressed, production-ready assets, run `npm run build`.
+- API/Background
+    - common APIs
+    - Common Data model 
+        - Entity -> parent association and attributes
+    - Common Handlers
+    - Common properties
